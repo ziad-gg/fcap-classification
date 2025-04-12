@@ -37,7 +37,7 @@ A Flask-based API service for matching images using ONNX models. This service ta
 
 2. Send a POST request to `/match_image` endpoint with:
    - `image`: Base64-encoded image data
-   - `variant`: The variant/model to use for matching (optional, defaults to "waterIconCup")
+   - `variant`: The variant/model to use for matching
 
 ### Example Request
 
@@ -92,4 +92,4 @@ Matches a reference image against potential matches using the specified model va
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.

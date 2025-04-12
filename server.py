@@ -107,10 +107,12 @@ def match_image():
             return jsonify({"success": False, "error": "No data provided"}), 400
         
         image_data = data.get('image')
-        variant = data.get('variant', 'waterIconCup')
+        variant = data.get('variant')
         
         if not image_data:
             return jsonify({"success": False, "error": "No image provided"}), 400
+        if not variant:
+            return jsonify({"success": False, "error": "No variant provided"}), 400
         
         result = process_image(image_data, variant)
         return jsonify(result)
