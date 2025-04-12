@@ -1,6 +1,6 @@
-# ONNX Image Matching API
+# FUNCAP Image Matching API
 
-A Flask-based API service for matching images using ONNX models. This service takes an image with reference samples and finds the best matching index based on similarity scores.
+Supports multiple FunCaptcha variants, loads models smart so it’s quick, and gives you back the best match with no fuss.
 
 ## Features
 
