@@ -1,0 +1,7 @@
+flask==5.0.1
+flask-cors==3.0.10
+onnxruntime==1.21.0
+numpy==1.26.4
+Pillow==10.4.0
+torch==2.5.1
+torchvision==0.20.1
