@@ -14,6 +14,7 @@ CORS(app)
 
 VARIANT_PATHS = {
     "waterIconCup": "models/waterIconCup.onnx",
+    "bowling": "models/bowling.onnx",
 }
 
 onnx_models = {}

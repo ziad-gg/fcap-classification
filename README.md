@@ -65,6 +65,7 @@ Supports multiple FunCaptcha variants, loads models smart so it’s quick, and g
 | Variant Name | Description | Available |
 |--------------|-------------|-----------|
 | waterIconCup | WaterIconCup model | ✅ Basic version |
+| bowling | bowling model | ✅ Basic version |
 
 ## Premium Models
 
